@@ -1,6 +1,8 @@
 # Sohapp
 An online payment manager app to help users stay on top of their payments and the business owner to get money back on time and keep track of payments.
 
+[View prototype on InVision.](https://projects.invisionapp.com/share/Y29RL5C4J#/screens)
+
 ## For Admins
 The app will allow administrators to track active loans, and easily contact users who have overdue repayments. 
 
@@ -23,4 +25,5 @@ Users can log in to see the amount of money they have loaned, and the proportion
 - As a user, I want to receive reminders to pay so I don't fall behind on my payments.
 - As a _potential_ user, I want to be able to find the sign-up form so I can apply for a loan.
 
-[Invision prototype](https://projects.invisionapp.com/share/Y29RL5C4J#/screens)
+## UI concept
+![Sohapp UI concept](/assets/ui-mockup.jpg)
