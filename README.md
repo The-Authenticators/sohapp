@@ -28,7 +28,7 @@ Users can log in to see the amount of money they have loaned, and the proportion
 ## UI concept
 ![Sohapp UI concept](/assets/ui-mockup.jpg)
 
-## Project plan for prototyping
+## Building the prototype - project plan
 #### Monday
 - Build five html pages for the following sections:
   - login
@@ -36,7 +36,12 @@ Users can log in to see the amount of money they have loaned, and the proportion
   - rounds
   - users
   - individual user  
-- Use SCSS to style the different pages
 - Identify patterns and repeat elements and build them separately for efficient team working
-  - header: differentiates between the login page (no menu) and the rest of the pages(menu)
-  - footer: 
+    - header: differentiates between the login page (no menu) and the rest of the pages(menu)
+    - footer: *Sohil Corporation Copyright, All rights reserved, 2016*
+    - General cards for users, rounds, monthly overview and overdue containing a heading and main content
+    - Users and rounds individual cards with three main items (check out mockups for more details)
+    - Progress bar (repeats twice in dashboard and individual user page)
+    - Menu (as a dropdown list)
+- Start using SCSS to style the different pages
+- Write js for dropdown menu
