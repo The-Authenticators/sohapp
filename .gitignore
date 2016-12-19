@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -39,7 +38,4 @@ jspm_packages
 
 # Sass cache
 .sass-cache
-=======
-.sass-cache
 css/.sass-cache
->>>>>>> 13242ea8cb9c4bc68c89c3beb9c9ddf1b983c44d
