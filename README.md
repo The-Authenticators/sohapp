@@ -4,7 +4,7 @@ An online payment manager app to help users stay on top of their payments and th
 [View prototype on InVision.](https://projects.invisionapp.com/share/Y29RL5C4J#/screens)
 
 ## For Admins
-The app will allow administrators to track active loans, and easily contact users who have overdue repayments. 
+The app will allow administrators to track active loans, and easily contact users who have overdue repayments.
 
 Administrators can use the app to keep track of the money they have lent. The administrator can immediately view outstanding repayments for the present month and all overdue repayments from previous months. Other views allow the business owner to view details on specific Users, and see loans and repayments by funding round.
 
@@ -27,3 +27,16 @@ Users can log in to see the amount of money they have loaned, and the proportion
 
 ## UI concept
 ![Sohapp UI concept](/assets/ui-mockup.jpg)
+
+## Project plan for prototyping
+#### Monday
+- Build five html pages for the following sections:
+  - login
+  - dashboard
+  - rounds
+  - users
+  - individual user  
+- Use SCSS to style the different pages
+- Identify patterns and repeat elements and build them separately for efficient team working
+  - header: differentiates between the login page (no menu) and the rest of the pages(menu)
+  - footer: 
