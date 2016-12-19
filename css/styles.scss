@@ -1,10 +1,17 @@
+// import partials
+@import 'variables';
+@import 'mixins';
+
 body {
   margin: 0;
+  font-family: $main-font;
+  background-color: $main-grey;
+  color: $main-black;
 }
 
 .navbar {
   height: 80px;
-  background-color: #333;
+  background-color: $main-black;
   width: 100%;
 }
 
@@ -27,7 +34,7 @@ body {
 }
 
 .menu-button {
-  background-color: #ddd;
+  background-color: $main-white;
   height: 35px;
   margin: auto;
   top: 50%;
