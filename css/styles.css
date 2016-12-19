@@ -29,4 +29,31 @@ body {
   cursor: pointer;
   text-decoration: underline; }
 
+.login__container {
+  width: 80vw;
+  margin: auto; }
+  .login__container label {
+    text-align: left; }
+
+.login__form {
+  width: 100%; }
+
+.login__input {
+  max-width: 400px;
+  width: 80%; }
+
+.login__button {
+  display: block;
+  color: #fff;
+  background-color: #FF00FF;
+  height: 40px;
+  width: 50%;
+  max-width: 300px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none; }
+
+.wordpress-link {
+  text-align: center; }
+
 /*# sourceMappingURL=styles.css.map */
