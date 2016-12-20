@@ -68,9 +68,9 @@ body {
 
 .login__input {
   max-width: 400px;
-  width: 80%;
+  width: 90%;
   outline: none;
-  height: 30px;
+  height: 40px;
   background-color: #eee;
   box-shadow: none;
   border: 0;
@@ -88,13 +88,13 @@ body {
   background-color: #fff;
   border: 3px #FF00FF solid;
   height: 40px;
-  width: 50%;
-  max-width: 300px;
+  width: 200px;
   text-align: center;
-  line-height: 40px;
+  line-height: 31px;
   text-decoration: none;
   font-weight: 500;
-  font-size: 18px; }
+  font-size: 18px;
+  margin: 10px 0 10px 0; }
 
 .login__button:hover {
   background-color: #FF00FF;
