@@ -135,7 +135,7 @@ body {
   color: #EEE;
   text-decoration: underline; }
 
-.card-user__container {
+.card-user__container, .card-round__container {
   display: inline-block;
   width: 100%;
   margin: 10px 0px 10px 0px;
@@ -146,17 +146,20 @@ body {
   padding: 0px 10px;
   font-weight: bold; }
 
-.card-user__name {
+.card-user__name, .card-round__name {
   text-decoration: underline;
   display: inline-block; }
 
-.card-user__outstanding {
+.card-user__outstanding, .card-round__customers {
   display: inline-block;
   float: right; }
 
-.card-user__last-payment {
+.card-user__last-payment, .card-round__owed {
   font-weight: normal;
   margin-top: 0px; }
+
+.card-round__container {
+  background-color: black; }
 
 .overdue-payments__link {
   font-family: "Helvetica", sans-serif;
