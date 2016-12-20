@@ -3,6 +3,17 @@
 @import 'variables';
 @import 'mixins';
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   font-family: $font-stack;
@@ -10,6 +21,9 @@ body {
   box-sizing: border-box;
   background-color: $main-grey;
   color: $main-black;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 6rem;
 }
 
 .navbar {
@@ -25,24 +39,51 @@ body {
 
 .icon {
   height: 90%;
-  margin: 5% 0 0 5%;
+  margin: 5% 0 0 10px;
 }
 
 .navbar-menu {
   position: absolute;
-  width: 80px;
+  top: 22.5px;
+  width: 100px;
   display: inline-block;
   right: 10%;
 }
 
 .menu-button {
-  background-color: $main-white;
-  height: 23px;
-  margin: auto;
-  top: 50%;
+  background-color: #ccc;
+  color: $main-black;
+  // height: 35px;
+  width: 100px;
   cursor: pointer;
-  text-decoration: underline;
-  text-align: left;
+  border-radius: 1px;
+  line-height: 3px;
+  text-align: center;
+  user-select: none;
+  display: inline-block;
+}
+
+.menu-button:hover {
+  background-color: #ddd;
+}
+
+.navbar-list__item {
+  display: 'none';
+  padding: 3px 6px;
+}
+
+.navbar-list__item {
+  a {
+    color: $main-black;
+    text-decoration: none;
+  }
+}
+
+.navbar-list {
+  margin: 0;
+  background-color: $main-white;
+  list-style: none;
+  padding-left: 0;
 }
 
 .login__container {
@@ -61,15 +102,16 @@ body {
 
 .login__input {
   max-width: 400px;
-  width: 80%;
+  width: 90%;
   outline: none;
-  height: 30px;
+  height: 40px;
   background-color: #eee;
   box-shadow: none;
   border: 0;
   font-size: 14px;
   font-family: $main-font;
   margin: 5px 0 15px 0;
+  padding: 0 4px 0 4px;
 }
 
 .login__input:focus {
@@ -82,14 +124,14 @@ body {
   background-color: #fff;
   border: 2px #FF00FF solid;
   height: 40px;
-  width: 50%;
-  max-width: 300px;
+  width: 200px;
   text-align: center;
-  line-height: 40px;
+  line-height: 31px;
   text-decoration: none;
   font-weight: 500;
   font-size: 18px;
   border-radius: 3px;
+  margin: 10px 0 10px 0;
 }
 
 .button:hover {
@@ -102,6 +144,7 @@ body {
 .wordpress-link {
   color: #555;
   text-align: center;
+  cursor: pointer;
 }
 
 .wordpress-link:hover {
@@ -152,10 +195,11 @@ body {
 
 .card-user__container {
   display: inline-block;
-  width: 95%;
+  width: 100%;
   margin: 10px 0px 10px 0px;
   border-radius: 5px;
-  background-color: #CCC;
+  box-sizing: border-box;
+  background-color: #ccc;
   box-shadow: 2px 2px 5px black;
   padding: 0px 10px;
   font-weight: bold;
@@ -176,6 +220,33 @@ body {
   margin-top: 0px;
 }
 
+.card-round__container {
+  display: inline-block;
+  width: 95%;
+  margin: 10px 0px 10px 0px;
+  border-radius: 5px;
+  background-color: #CCC;
+  box-shadow: 2px 2px 5px black;
+  padding: 0px 10px;
+  font-weight: bold;
+}
+
+.card-round__name {
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.card-round__customers {
+  display: inline-block;
+  float: right;
+}
+
+.card-round__owed {
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+
 .overdue-payments__link {
   font-family: $font-stack;
   font-size: 1em;
@@ -183,29 +254,19 @@ body {
   text-decoration: underline;
 }
 
+.footer {
+  padding-bottom: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .footer__text {
   font-family: $font-stack;
   font-size: 0.75em;
-  text-align: center;
   color: #333;
-}
-
-.navbar-list__item {
-  display: 'none';
-}
-
-.navbar-list__item {
-  a {
-    color: $main-black;
-    text-decoration: none;
-  }
-}
-
-.navbar-list {
-  margin-top: 0;
-  background-color: $main-white;
-  list-style: none;
-  padding-left: 0;
+  text-align: center;
 }
 
 .user-summary__header {
