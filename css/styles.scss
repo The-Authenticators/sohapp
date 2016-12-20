@@ -44,29 +44,46 @@ body {
 
 .navbar-menu {
   position: absolute;
-  height: 80px;
+  top: 22.5px;
   width: 100px;
   display: inline-block;
-  right: 5px;
+  right: 10%;
 }
 
 .menu-button {
   background-color: #ccc;
   color: $main-black;
-  height: 35px;
+  // height: 35px;
   width: 100px;
   cursor: pointer;
-  text-weight: 600;
-  border-radius: 5%;
-  position: absolute;
-  top: 22.5px;
+  border-radius: 1px;
   line-height: 3px;
   text-align: center;
   user-select: none;
+  display: inline-block;
 }
 
 .menu-button:hover {
   background-color: #ddd;
+}
+
+.navbar-list__item {
+  display: none;
+  padding: 3px 6px;
+}
+
+.navbar-list__item {
+  a {
+    color: $main-black;
+    text-decoration: none;
+  }
+}
+
+.navbar-list {
+  margin: 0;
+  background-color: $main-white;
+  list-style: none;
+  padding-left: 0;
 }
 
 .login__container {
@@ -101,11 +118,11 @@ body {
   background-color: #fff;
 }
 
-.login__button {
+.button {
   display: block;
   color: #FF00FF;
   background-color: #fff;
-  border: 3px #FF00FF solid;
+  border: 2px #FF00FF solid;
   height: 40px;
   width: 200px;
   text-align: center;
@@ -113,13 +130,15 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 18px;
+  border-radius: 3px;
   margin: 10px 0 10px 0;
 }
 
-.login__button:hover {
+.button:hover {
   background-color: #FF00FF;
   border-color: #fff;
   color: #fff;
+  box-shadow: 2px 2px 4px #aaa;
 }
 
 .wordpress-link {
@@ -250,20 +269,67 @@ body {
   text-align: center;
 }
 
-.navbar-list__item {
-  display: 'none';
+.user-summary__header {
+  font-size: 1.2em;
+  color: $main-white;
 }
 
-.navbar-list__item {
-  a {
-    color: $main-black;
-    text-decoration: none;
+.user-summary {
+    color: $main-white;
+}
+
+.user-contact__header {
+  @extend .user-summary__header;
+}
+
+.payment-history__header {
+  @extend .user-summary__header;
+}
+
+.user-contact {
+  @extend .user-summary;
+}
+
+.payment-history {
+  @extend .user-summary;
+}
+
+.user-contact__item {
+  padding-left: 0;
+}
+
+.user-contact__details {
+  list-style: none;
+  padding-left: 0px;
+  line-height: 1.3em;
+}
+
+.payment-reminder__button {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.payment-history__table {
+  color: $main-white;
+  border-spacing: 0;
+  tr {
+    td {
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+      border-bottom: 0.5px solid #aaa;
+    }
+    th {
+      border-bottom: 2px solid #aaa;
+    }
   }
 }
 
-.navbar-list {
-  margin-top: 0;
-  background-color: $main-white;
-  list-style: none;
+.payment-history__date {
   padding-left: 0;
+  text-align: left;
+}
+
+.payment-history__transaction {
+  padding-left: 2em;
+  text-align: right;
 }
