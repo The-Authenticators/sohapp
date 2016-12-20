@@ -1,4 +1,5 @@
 // import partials
+@import 'normalize';
 @import 'variables';
 @import 'mixins';
 
@@ -40,4 +41,22 @@ body {
   top: 50%;
   cursor: pointer;
   text-decoration: underline;
+}
+
+.navbar-list__item {
+  display: 'none';
+}
+
+.navbar-list__item {
+  a {
+    color: $main-black;
+    text-decoration: none;
+  }
+}
+
+.navbar-list {
+  margin-top: 0;
+  background-color: $main-white;
+  list-style: none;
+  padding-left: 0;
 }
