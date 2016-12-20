@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="../js/app.js"></script>
+    <title>Sohapp | User profile</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-icon">
+        <a href="/"><img class="icon" src="../assets/sohapp-icon.png" /></a>
+      </div>
+      <div class="navbar-menu">
+        <div class="menu-button">
+          <p>Sohil&nbsp;🔽</p>
+        </div>
+        <ul class="navbar-list" role="navigation">
+            <li class="navbar-list__item"><a href="./dashboard.html">Dashboard</a></li>
+            <li class="navbar-list__item"><a href="./rounds.html">All rounds</a></li>
+            <li class="navbar-list__item"><a href="./users.html">All users</a></li>
+            <li class="navbar-list__item"><a href="./login.html">Log out</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="card__container user-summary">
+      <h1 class="card__header user-summary__header">John Philadelphia</h1>
+      <h2 class="user-summary__header">Wallety</h2>
+      <meter class="progress-bar__meter" value="2500" min="0" max="3500">£2500 out of £3500</meter><br>
+      <p class="progress-bar__description">&pound;2,500 repaid out of &pound; 3,500 borrowed</p>
+    </div>
+    <div class="card__container user-contact">
+      <h2 class="user-contact__header">Contact</h2>
+      <ul class="user-contact__details">
+        <li class="user-contact__item">Name: John Philadelphia</li>
+        <li class="user-contact__item">Company: Wallety</li>
+        <li class="user-contact__item">Email: john&commat;wallety.com</li>
+        <li class="user-contact__item">Phone: 020 7231 1111</li>
+      </ul>
+      <a href="#" class="button payment-reminder__button" role="button">Send payment reminder</a><br />
+    </div>
+    <div class="card__container payment-history">
+      <h2 class="payment-history__header">Payment history</h2>
+      <table class="payment-history__table">
+        <tr>
+          <th class="payment-history__date">Date</th>
+          <th class="payment-history__transaction">Transaction</th>
+        </tr>
+        <tr>
+          <td class="payment-history__date">01/12/2016</td>
+          <td class="payment-history__transaction">+£100</td>
+        </tr>
+        <tr>
+          <td class="payment-history__date">01/11/2016</td>
+          <td class="payment-history__transaction">+£100</td>
+        </tr>
+        <tr>
+          <td class="payment-history__date">30/10/2016</td>
+          <td class="payment-history__transaction">+£200</td>
+        </tr>
+        <tr>
+          <td class="payment-history__date">01/09/2016</td>
+          <td class="payment-history__transaction">-£1000</td>
+        </tr>
+        <tr>
+          <td class="payment-history__date">01/08/2016</td>
+          <td class="payment-history__transaction">+£200</td>
+        </tr>
+        <tr>
+          <td class="payment-history__date">01/07/2016</td>
+          <td class="payment-history__transaction">+£200</td>
+        </tr>
+        <tr>
+          <td class="payment-history__date">01/06/2016</td>
+          <td class="payment-history__transaction">-£2000</td>
+        </tr>
+      </table>
+    </div>
+    <footer class="footer">
+      <p class="footer__text">Sohil Corporation &copy; All rights reserved, 2016</p>
+    </footer>
+  </body>
+</html>
