@@ -1,3 +1,5 @@
+// import partials
+@import 'normalize';
 @import 'variables';
 @import 'mixins';
 
@@ -122,4 +124,22 @@ body {
   font-size: 0.75em;
   text-align: center;
   color: #333;
+}
+
+.navbar-list__item {
+  display: 'none';
+}
+
+.navbar-list__item {
+  a {
+    color: $main-black;
+    text-decoration: none;
+  }
+}
+
+.navbar-list {
+  margin-top: 0;
+  background-color: $main-white;
+  list-style: none;
+  padding-left: 0;
 }

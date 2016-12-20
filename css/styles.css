@@ -103,4 +103,17 @@ body {
   text-align: center;
   color: #333; }
 
+.navbar-list__item {
+  display: 'none'; }
+
+.navbar-list__item a {
+  color: #333;
+  text-decoration: none; }
+
+.navbar-list {
+  margin-top: 0;
+  background-color: #ddd;
+  list-style: none;
+  padding-left: 0; }
+
 /*# sourceMappingURL=styles.css.map */
