@@ -50,7 +50,11 @@ body {
   position: absolute;
   top: 22.5px;
   line-height: 3px;
-  text-align: center; }
+  text-align: center;
+  user-select: none; }
+
+.menu-button:hover {
+  background-color: #ddd; }
 
 .login__container {
   width: 80vw;
