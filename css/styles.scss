@@ -26,6 +26,10 @@ body {
   padding-bottom: 6rem;
 }
 
+a, a:hover, a:visited, a:active {
+  color: $main-black;
+}
+
 .navbar {
   height: 80px;
   background-color: $main-black;
@@ -118,7 +122,7 @@ body {
   background-color: #fff;
 }
 
-.button {
+.button, .button:hover, .button:visited, .button:active {
   display: block;
   color: #FF00FF;
   background-color: #fff;
@@ -297,9 +301,13 @@ body {
   list-style: none;
   padding-left: 0px;
   line-height: 1.3em;
+
+  a, a:hover, a:visited, a:active {
+    color: $main-white
+  }
 }
 
-.payment-reminder__button {
+.payment-reminder__button, .payment-reminder__button:hover, .payment-reminder__button:visited, .payment-reminder__button:active {
   margin: 0 auto;
   width: 80%;
 }
