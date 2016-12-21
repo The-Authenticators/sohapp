@@ -153,10 +153,14 @@ a, a:hover, a:visited, a:active {
   color: #EEE;
   text-align: center; }
 
-.recent-transactions__link {
+.recent-transactions__link,
+.recent-transactions__link:hover,
+.recent-transactions__link:active,
+.recent-transactions__link:visited {
   font-family: "Helvetica", sans-serif;
   font-size: 1em;
-  color: #EEE; }
+  color: #EEE;
+  cursor: pointer; }
 
 .card-user__container {
   display: inline-block;
@@ -201,10 +205,14 @@ a, a:hover, a:visited, a:active {
   font-weight: normal;
   margin-top: 0px; }
 
-.overdue-payments__link {
+.overdue-payments__link,
+.overdue-payments__link:hover,
+.overdue-payments__link:visited,
+.overdue-payments__link:active {
   font-family: "Helvetica", sans-serif;
   font-size: 1em;
-  color: #EEE; }
+  color: #EEE;
+  cursor: pointer; }
 
 .footer {
   padding-bottom: 1rem;
