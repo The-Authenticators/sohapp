@@ -132,8 +132,7 @@ body {
 
 .card__header {
   margin: 0 0 20px 0;
-  color: #EEE;
-  text-decoration: underline; }
+  color: #EEE; }
 
 .progress-bar__meter {
   width: 100%;
@@ -154,8 +153,7 @@ body {
 .recent-transactions__link {
   font-family: "Helvetica", sans-serif;
   font-size: 1em;
-  color: #EEE;
-  text-decoration: underline; }
+  color: #EEE; }
 
 .card-user__container {
   display: inline-block;
@@ -169,7 +167,6 @@ body {
   font-weight: bold; }
 
 .card-user__name {
-  text-decoration: underline;
   display: inline-block; }
 
 .card-user__outstanding {
@@ -191,7 +188,6 @@ body {
   font-weight: bold; }
 
 .card-round__name {
-  text-decoration: underline;
   display: inline-block; }
 
 .card-round__customers {
@@ -205,8 +201,7 @@ body {
 .overdue-payments__link {
   font-family: "Helvetica", sans-serif;
   font-size: 1em;
-  color: #EEE;
-  text-decoration: underline; }
+  color: #EEE; }
 
 .footer {
   padding-bottom: 1rem;
