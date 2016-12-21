@@ -189,10 +189,14 @@ a, a:hover, a:visited, a:active {
   text-align: center;
 }
 
-.recent-transactions__link {
+.recent-transactions__link,
+.recent-transactions__link:hover,
+.recent-transactions__link:active,
+.recent-transactions__link:visited {
   font-family: $font-stack;
   font-size: 1em;
   color: $font-color;
+  cursor: pointer;
 }
 
 .card-user__container {
@@ -247,10 +251,14 @@ a, a:hover, a:visited, a:active {
 }
 
 
-.overdue-payments__link {
+.overdue-payments__link,
+.overdue-payments__link:hover,
+.overdue-payments__link:visited,
+.overdue-payments__link:active{
   font-family: $font-stack;
   font-size: 1em;
   color: $font-color;
+  cursor: pointer;
 }
 
 .footer {
