@@ -27,7 +27,7 @@ coverage
 build/Release
 
 # Dependency directories
-node_modules
+node_modulesw
 jspm_packages
 
 # Optional npm cache directory
@@ -39,3 +39,4 @@ jspm_packages
 # Sass cache
 .sass-cache
 css/.sass-cache
+css/styles.css.map
