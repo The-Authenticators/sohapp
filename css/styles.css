@@ -155,7 +155,7 @@ body {
   font-size: 1em;
   color: #EEE; }
 
-.card-user__container {
+.card-user__container, .card-round__container {
   display: inline-block;
   width: 100%;
   margin: 10px 0px 10px 0px;
@@ -176,16 +176,6 @@ body {
 .card-user__last-payment {
   font-weight: normal;
   margin-top: 0px; }
-
-.card-round__container {
-  display: inline-block;
-  width: 95%;
-  margin: 10px 0px 10px 0px;
-  border-radius: 5px;
-  background-color: #CCC;
-  box-shadow: 2px 2px 5px black;
-  padding: 0px 10px;
-  font-weight: bold; }
 
 .card-round__name {
   display: inline-block; }
